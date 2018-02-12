@@ -23,7 +23,7 @@ public class HttpGetRequest extends AsyncTask<String, Void, String> {
     public static final int READ_TIMEOUT = 15000;
     public static final int CONNECTION_TIMEOUT = 15000;
     public static final String username = "dug";
-    public static final String password = "qqq123";
+    public static final String password = "####";
     public static final String usernameAndPassword = username + ":" + password;
     final String basicAuth = "Basic " + Base64.encodeToString("dug:qqq123".getBytes(), Base64.NO_WRAP);
     @Override
@@ -47,9 +47,7 @@ public class HttpGetRequest extends AsyncTask<String, Void, String> {
 
 
 
-            String username = "dug";
-            String password = "qqq123";
-
+          
 
             String usernameAndPassword = username + ":" + password;
             //String authorizationHeaderValue = "Basic " + java.util.Base64.getEncoder().encodeToString( usernameAndPassword.getBytes() );
